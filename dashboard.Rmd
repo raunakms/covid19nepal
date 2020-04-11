@@ -1,0 +1,180 @@
+---
+title: "COVID-19 Nepal"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    social: menu
+    source_code: embed
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+### DEFINE LIBRARIES ---
+library("flexdashboard")
+library("plotly")
+
+# DATA CURATED FROM DATA RELEASED (UPDATED DAILY) FROM
+# GOVT. OF NEPAL, MINISTRY OF HEALTH AND POPULATION
+# HEALTH SECTOR RESPONSE TO CORONAVIRUS DISEASE (COVID-19)
+# URL: https://drive.google.com/drive/folders/1QhLMbT76t6Zu1sFy5qlB5aoDbHVAcnHx
+
+### DEFINE FILE ---
+file.dat <- file.path("data_total.tsv")
+
+#------------------ Parameters ------------------
+# Set colors
+# https://www.w3.org/TR/css-color-3/#svg-color
+test_color <- "#4292c6"
+confirmed_color <- "#b15928"
+active_color <- "#ff7f00"
+recovered_color <- "#33a02c"
+death_color <- "#e31a1c"
+
+### LOAD DATA ---
+dat <- read.delim(file.dat, header=TRUE, stringsAsFactors=FALSE)
+dat$date <- as.Date(dat$date, format = "%m/%d/%y")
+
+### FUNCTION: num_changes() ---
+num_changes <- function(x){
+  y <- numeric()
+  y[1] <- x[1]
+  
+  for(i in 2:length(x)){
+    y[i] <- x[i] - x[i-1]           
+  }
+  
+  return(y)
+}  
+
+### CALCULATE ACTIVE INFECTION, NEW TESTS, NEW POITIVES, NEW DEATH, NEW RECOVERED ---
+dat$active_case <- dat$total_positive - dat$total_recovered
+dat$new_tested <- num_changes(dat$total_test)
+dat$new_positive <- num_changes(dat$total_positive)	
+dat$new_death <- num_changes(dat$total_death)	
+dat$new_recovered <- num_changes(dat$total_recovered)
+
+### LATEST INFO ---
+total_test <- dat$total_test[nrow(dat)]
+total_positive <- dat$total_positive[nrow(dat)]
+active_case <- dat$active_case[nrow(dat)]
+total_recovered <- dat$total_recovered[nrow(dat)]
+total_death <- dat$total_death[nrow(dat)]
+
+```
+
+
+Summary
+=======================================================================
+Row
+-----------------------------------------------------------------------
+
+### Total Test Conducted {.value-box}
+
+```{r}
+valueBox(value = paste(format(total_test, big.mark = ","), "", sep = " "), 
+         caption = "Total Test Conducted", 
+         icon = "fas fa-vial", 
+         color = test_color)
+```
+
+### Positive {.value-box}
+
+```{r}
+valueBox(value = paste(format(total_positive, big.mark = ","), "", sep = " "), 
+         caption = "Positive Cases", 
+         icon = "fas fa-user-md", 
+         color = confirmed_color)
+```
+
+
+### active {.value-box}
+
+```{r}
+valueBox(value = paste(format(active_case, big.mark = ","), "", sep = " "), 
+         caption = "Active Cases", 
+         icon = "fas fa-ambulance", 
+         color = active_color)
+```
+
+### recovered {.value-box}
+
+```{r}
+valueBox(value = paste(format(total_recovered, big.mark = ","), "", sep = " "),  
+         caption = "Recovered Cases", icon = "fas fa-heartbeat", 
+         color = recovered_color)
+```
+
+### death {.value-box}
+
+```{r}
+valueBox(value = paste(format(total_death, big.mark = ","), "", sep = " "),  
+         caption = "Death Cases", 
+         icon = "fas fa-bolt", 
+         color = death_color)
+```
+
+
+Row
+-----------------------------------------------------------------------
+
+### Total Positive Cases in Nepal
+
+```{r}
+plotly::plot_ly(data = dat,
+                x = ~ date,
+                y = ~ total_positive,
+                line = list(color = confirmed_color, width = 2),
+                marker = list(color = confirmed_color, width = 4),
+                name = 'Positive', 
+                type = 'scatter',
+                mode = 'lines+markers') %>%
+plotly::layout(title = "",
+                 yaxis = list(title = "Total Positive Cases"),
+                 xaxis = list(title = "Date"),
+                 legend = list(x = 0.1, y = 0.9),
+                 hovermode = "compare")
+
+```
+
+Row {data-width=400}
+-----------------------------------------------------------------------
+
+
+### RT-PCR Tests Conducted
+    
+```{r}
+plotly::plot_ly(data = dat,
+                x = ~ date,
+                y = ~ total_test,
+                name = 'Positive', 
+                type = 'scatter',
+                mode = 'lines+markers') %>%
+plotly::layout(title = "",
+                 yaxis = list(title = "Total RT-PCR Test Conducted"),
+                 xaxis = list(title = "Date"),
+                 legend = list(x = 0.1, y = 0.9),
+                 hovermode = "compare")
+```
+
+
+### Data
+    
+```{r}
+dtbl <- dat %>%
+          dplyr::select(Date=date, 
+                        'Total Test'=total_test, 
+                        'Total Positive'=total_positive,
+                        'Active Cases'=active_case,
+                        'Total Recovered'=total_recovered,
+                        'Total Death'=total_death)
+
+dtbl$Date <- as.Date(dtbl$Date, format = '%Y/%m/%d')
+
+dtbl <- dtbl[order(dtbl$Date, decreasing = TRUE),]
+
+dtbl %>%  
+  DT::datatable(rownames = FALSE,
+            options = list(searchHighlight = TRUE, 
+                           pageLength = 20))
+```
+
