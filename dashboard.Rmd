@@ -11,6 +11,7 @@ output:
 ```{r setup, include=FALSE}
 ### DEFINE LIBRARIES ---
 library("flexdashboard")
+library("ggplot2")
 library("plotly")
 
 # DATA CURATED FROM DATA RELEASED (UPDATED DAILY) FROM
@@ -19,7 +20,8 @@ library("plotly")
 # URL: https://drive.google.com/drive/folders/1QhLMbT76t6Zu1sFy5qlB5aoDbHVAcnHx
 
 ### DEFINE FILE ---
-file.dat <- file.path("data_total.tsv")
+dir.data <- file.path("data")
+file.dat <- file.path(dir.data, "data_total.tsv")
 
 #------------------ Parameters ------------------
 # Set colors
@@ -120,20 +122,33 @@ Row
 ### Total Positive Cases in Nepal
 
 ```{r}
-plotly::plot_ly(data = dat,
-                x = ~ date,
-                y = ~ total_positive,
-                line = list(color = confirmed_color, width = 2),
-                marker = list(color = confirmed_color, width = 4),
-                name = 'Positive', 
-                type = 'scatter',
-                mode = 'lines+markers') %>%
-plotly::layout(title = "",
-                 yaxis = list(title = "Total Positive Cases"),
-                 xaxis = list(title = "Date"),
-                 legend = list(x = 0.1, y = 0.9),
-                 hovermode = "compare")
+p1 <- ggplot(dat, aes(x=date, y=total_positive)) +
+      geom_point(color=confirmed_color, alpha=1, size=2) +
+      geom_line(color=confirmed_color, alpha=1, size=1)+
+      theme(
+        axis.text.x = element_text(size = 15, color="#000000"),
+        axis.text.y = element_text(size = 15, color="#000000"),
+        axis.title = element_text(size = 15, color="#000000"),
+        plot.title = element_text(size = 15, color="#000000", hjust=0.5),
+        panel.grid.major.y = element_line(size=0.5, color="#BDBDBD"),
+        panel.grid.minor.y = element_line(size=0.25, color="#BDBDBD"),
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.ticks = element_line(size=0.4, color="#000000"), 
+        strip.text = element_text(size=10, color="#000000"),
+        strip.background = element_rect(fill="#FFFFFF", color="#FFFFFF"),
+        panel.background = element_rect(fill="#FFFFFF", color="#FFFFFF"),
+        axis.line.x = element_line(size = 1.5, color="#000000"),
+        axis.line.y = element_blank(),
+        legend.text = element_text(size = 10, color="#000000"),
+        legend.title = element_blank(),
+        legend.key.size = unit(0.5, "cm"),
+        legend.position = "none") +
+      ylab("Total Positive Cases") +
+      xlab("Date") + 
+      ggtitle("") 
 
+plotly::ggplotly(p1)
 ```
 
 Row {data-width=400}
@@ -143,17 +158,34 @@ Row {data-width=400}
 ### RT-PCR Tests Conducted
     
 ```{r}
-plotly::plot_ly(data = dat,
-                x = ~ date,
-                y = ~ total_test,
-                name = 'Positive', 
-                type = 'scatter',
-                mode = 'lines+markers') %>%
-plotly::layout(title = "",
-                 yaxis = list(title = "Total RT-PCR Test Conducted"),
-                 xaxis = list(title = "Date"),
-                 legend = list(x = 0.1, y = 0.9),
-                 hovermode = "compare")
+p2 <- ggplot(dat, aes(x=date, y=total_test)) +
+      geom_point(color=test_color, alpha=1, size=2) +
+      geom_line(color=test_color, alpha=1, size=1)+
+      theme(
+        axis.text.x = element_text(size = 15, color="#000000"),
+        axis.text.y = element_text(size = 15, color="#000000"),
+        axis.title = element_text(size = 15, color="#000000"),
+        plot.title = element_text(size = 15, color="#000000", hjust=0.5),
+        panel.grid.major.y = element_line(size=0.5, color="#BDBDBD"),
+        panel.grid.minor.y = element_line(size=0.25, color="#BDBDBD"),
+        panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.ticks = element_line(size=0.4, color="#000000"), 
+        strip.text = element_text(size=10, color="#000000"),
+        strip.background = element_rect(fill="#FFFFFF", color="#FFFFFF"),
+        panel.background = element_rect(fill="#FFFFFF", color="#FFFFFF"),
+        axis.line.x = element_line(size = 1.5, color="#000000"),
+        axis.line.y = element_blank(),
+        legend.text = element_text(size = 10, color="#000000"),
+        legend.title = element_blank(),
+        legend.key.size = unit(0.5, "cm"),
+        legend.position = "none") +
+      ylab("Total RT-PCR Test Conducted") +
+      xlab("Date") + 
+      ggtitle("") 
+
+plotly::ggplotly(p2) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+
 ```
 
 
