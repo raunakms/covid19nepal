@@ -1,0 +1,43 @@
+case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	case_type	travel_history	hospital_id	remarks
+1	M	31	1/28/2020	1/31/2020	NA	Kathmandu	Bagmati	Imported Case	China	STIDH	
+2	F	19	3/23/2020	4/18/2020	NA	Kathmandu	Bagmati	Imported Case	France,Qatar	STIDH	
+3	M	32	3/25/2020	NA	NA	Kathmandu	Bagmati	Imported Case	UAE	STIDH	
+4	M	34	3/28/2020	4/22/2020	NA	Dhangadi	Kailali	Imported Case	UAE	SEPH	
+5	F	19	3/28/2020	NA	NA	Baglung	Gandaki 	Imported Case	Belgium,Qatar	STIDH	
+6	F	65	4/2/2020	4/18/2020	NA	Baglung	Gandaki 	Imported Case	Belgium,Qatar	STIDH	
+7	M	21	4/4/2020	4/19/2020	NA	Kailali	Sudurpashchim	Imported Case	India	SEPH	
+8	M	41	4/4/2020	NA	NA	Kanchanpur	Sudurpashchim	Imported Case	India	SEPH	
+9	F	34	4/4/2020	NA	NA	Kailali	Sudurpashchim	Local Transmission	NA	SEPH	Family member of confirmed case
+10	M	37	4/12/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH	Indian National
+11	M	44	4/12/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH	Indian National
+12	M	55	4/12/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH	Indian National
+13	F	65	4/13/2020	NA	NA	Kailali	Sudurpashchim	Local Transmission	Domestic	SEPH	
+14	M	19	4/13/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH	
+15	F	81	4/14/2020	NA	NA	Lalitpur	Bagmati	Imported Case	UK,Qatar	PAHS	
+16	M	58	4/14/2020	NA	NA	Lalitpur	Bagmati	Imported Case	UK,Qatar	PAHS	
+17	M	34	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+18	M	29	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+19	M	26	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+20	M	28	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+21	M	28	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+22	M	28	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+23	M	28	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+24	M	22	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+25	M	25	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+26	M	20	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+27	M	40	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+28	M	29	4/18/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+29	M	27	4/18/2020	NA	NA	Chitwan	Bagmati	Imported Case	UK,Hongkong	BHTH	Family member of confirmed case
+30	F	63	4/18/2020	NA	NA	Chitwan	Bagmati	Imported Case	UK,Hongkong	BHTH	Family member of confirmed case
+31	M	65	4/19/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
+32	M	33	4/21/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+33	M	18	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+34	M	18	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+35	M	20	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+36	M	40	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+37	M	41	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+38	M	41	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+39	M	52	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+40	M	58	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+41	F	36	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
+42	F	NA	4/22/2020	NA	NA	Udaypur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	
