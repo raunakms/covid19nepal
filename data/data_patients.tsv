@@ -27,7 +27,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 26	M	20	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
 27	M	40	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
 28	M	29	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
-29	M	27	4/18/2020	NA	NA	Chitwan	Bagmati	Imported Case	UK,Hongkong	BHTH	Family member of confirmed case
+29	M	27	4/18/2020	4/25/2020	NA	Chitwan	Bagmati	Imported Case	UK,Hongkong	BHTH	Family member of confirmed case
 30	F	63	4/18/2020	NA	NA	Chitwan	Bagmati	Imported Case	UK,Hongkong	BHTH	Family member of confirmed case
 31	M	65	4/19/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	Indian National
 32	M	33	4/21/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	CSHBIRAT	

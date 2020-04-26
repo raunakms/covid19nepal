@@ -6,6 +6,12 @@ output:
     social: menu
     source_code: embed
     vertical_layout: fill
+
+knit: (function(input_file, encoding) {
+  out_dir <- 'html';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'dashboard.html'))})    
 ---
 
 ```{r setup, include=FALSE}
@@ -61,7 +67,8 @@ total_positive <- dat$total_positive[nrow(dat)]
 active_case <- dat$active_case[nrow(dat)]
 total_recovered <- dat$total_recovered[nrow(dat)]
 total_death <- dat$total_death[nrow(dat)]
-
+rate_recovry <- round((total_recovered/total_positive) * 100,1)
+rate_death <- round((total_death/total_positive) * 100, 1)
 ```
 
 
@@ -101,7 +108,7 @@ valueBox(value = paste(format(active_case, big.mark = ","), "", sep = " "),
 ### recovered {.value-box}
 
 ```{r}
-valueBox(value = paste(format(total_recovered, big.mark = ","), "", sep = " "),  
+valueBox(value = paste(format(total_recovered, big.mark = ","), "   (", format(paste(rate_recovry, "%", sep=" "), big.mark = ","), " )", "", sep = " "),  
          caption = "Recovered Cases", icon = "fas fa-heartbeat", 
          color = recovered_color)
 ```
@@ -109,7 +116,7 @@ valueBox(value = paste(format(total_recovered, big.mark = ","), "", sep = " "),
 ### death {.value-box}
 
 ```{r}
-valueBox(value = paste(format(total_death, big.mark = ","), "", sep = " "),  
+valueBox(value = paste(format(total_death, big.mark = ","), "   (", format(paste(rate_death, "%", sep=" "), big.mark = ","), " )", "", sep = "  "), 
          caption = "Death Cases", 
          icon = "fas fa-bolt", 
          color = death_color)
