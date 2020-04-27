@@ -6,69 +6,40 @@ output:
     social: menu
     source_code: embed
     vertical_layout: fill
-
-knit: (function(input_file, encoding) {
-  out_dir <- 'html';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'dashboard.html'))})    
 ---
 
-```{r setup, include=FALSE}
-### DEFINE LIBRARIES ---
-library("flexdashboard")
-library("ggplot2")
-library("plotly")
 
+```{r setup, include=FALSE}
 # DATA CURATED FROM DATA RELEASED (UPDATED DAILY) FROM
 # GOVT. OF NEPAL, MINISTRY OF HEALTH AND POPULATION
 # HEALTH SECTOR RESPONSE TO CORONAVIRUS DISEASE (COVID-19)
 # URL: https://drive.google.com/drive/folders/1QhLMbT76t6Zu1sFy5qlB5aoDbHVAcnHx
 
+### DEFINE PATH ---
+dir.wrk <- getwd()
+dir.data <- file.path(dir.wrk, "data")
+dir.rscripts <- file.path(dir.wrk, "R")
+dir.map <- file.path(dir.wrk, "map")
+
 ### DEFINE FILE ---
-dir.data <- file.path("data")
-file.dat <- file.path(dir.data, "data_total.tsv")
+file.dat_total <- file.path(dir.data, "data_total.tsv")
+file.dat_labs <- file.path(dir.data, "data_by_labs.tsv")
+file.dat_patients <- file.path(dir.data, "data_patients.tsv")
+file.geo <- file.path(dir.map, "nepal_district.geojson")
 
 #------------------ Parameters ------------------
 # Set colors
-# https://www.w3.org/TR/css-color-3/#svg-color
 test_color <- "#4292c6"
 confirmed_color <- "#b15928"
 active_color <- "#ff7f00"
 recovered_color <- "#33a02c"
 death_color <- "#e31a1c"
 
-### LOAD DATA ---
-dat <- read.delim(file.dat, header=TRUE, stringsAsFactors=FALSE)
-dat$date <- as.Date(dat$date, format = "%m/%d/%y")
+### DEFINE LIBRARIES ---
+source(file.path(dir.rscripts, "Rlibraries.R"))
 
-### FUNCTION: num_changes() ---
-num_changes <- function(x){
-  y <- numeric()
-  y[1] <- x[1]
-  
-  for(i in 2:length(x)){
-    y[i] <- x[i] - x[i-1]           
-  }
-  
-  return(y)
-}  
-
-### CALCULATE ACTIVE INFECTION, NEW TESTS, NEW POITIVES, NEW DEATH, NEW RECOVERED ---
-dat$active_case <- dat$total_positive - dat$total_recovered
-dat$new_tested <- num_changes(dat$total_test)
-dat$new_positive <- num_changes(dat$total_positive)	
-dat$new_death <- num_changes(dat$total_death)	
-dat$new_recovered <- num_changes(dat$total_recovered)
-
-### LATEST INFO ---
-total_test <- dat$total_test[nrow(dat)]
-total_positive <- dat$total_positive[nrow(dat)]
-active_case <- dat$active_case[nrow(dat)]
-total_recovered <- dat$total_recovered[nrow(dat)]
-total_death <- dat$total_death[nrow(dat)]
-rate_recovry <- round((total_recovered/total_positive) * 100,1)
-rate_death <- round((total_death/total_positive) * 100, 1)
+### COMPUTE BASIC STATS ---
+source(file.path(dir.rscripts, "compute_basic_stats.R"))
 ```
 
 
@@ -108,7 +79,7 @@ valueBox(value = paste(format(active_case, big.mark = ","), "", sep = " "),
 ### recovered {.value-box}
 
 ```{r}
-valueBox(value = paste(format(total_recovered, big.mark = ","), "   (", format(paste(rate_recovry, "%", sep=" "), big.mark = ","), " )", "", sep = " "),  
+valueBox(value = paste(format(total_recovered, big.mark = ","), "   (", format(paste(rate_recovery, "%", sep=" "), big.mark = ","), " )", "", sep = " "),  
          caption = "Recovered Cases", icon = "fas fa-heartbeat", 
          color = recovered_color)
 ```
@@ -126,94 +97,73 @@ valueBox(value = paste(format(total_death, big.mark = ","), "   (", format(paste
 Row
 -----------------------------------------------------------------------
 
-### Total Positive Cases in Nepal
+### Total COVID-19 Cases in Nepal
 
-```{r}
-p1 <- ggplot(dat, aes(x=date, y=total_positive)) +
-      geom_point(color=confirmed_color, alpha=1, size=2) +
-      geom_line(color=confirmed_color, alpha=1, size=1)+
-      theme(
-        axis.text.x = element_text(size = 15, color="#000000"),
-        axis.text.y = element_text(size = 15, color="#000000"),
-        axis.title = element_text(size = 15, color="#000000"),
-        plot.title = element_text(size = 15, color="#000000", hjust=0.5),
-        panel.grid.major.y = element_line(size=0.5, color="#BDBDBD"),
-        panel.grid.minor.y = element_line(size=0.25, color="#BDBDBD"),
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor.x = element_blank(),
-        axis.ticks = element_line(size=0.4, color="#000000"), 
-        strip.text = element_text(size=10, color="#000000"),
-        strip.background = element_rect(fill="#FFFFFF", color="#FFFFFF"),
-        panel.background = element_rect(fill="#FFFFFF", color="#FFFFFF"),
-        axis.line.x = element_line(size = 1.5, color="#000000"),
-        axis.line.y = element_blank(),
-        legend.text = element_text(size = 10, color="#000000"),
-        legend.title = element_blank(),
-        legend.key.size = unit(0.5, "cm"),
-        legend.position = "none") +
-      ylab("Total Positive Cases") +
-      xlab("Date") + 
-      ggtitle("") 
-
-plotly::ggplotly(p1)
+```{r message=FALSE, warning=FALSE}
+source(file.path(dir.rscripts, "plot_total_cases_line.R"))
+plotly::ggplotly(p_total_case_line)
 ```
+
+
+### Total COVID-19 Cases in Nepal
+
+```{r message=FALSE, warning=FALSE}
+source(file.path(dir.rscripts, "plot_total_cases_choropleth.R"))
+plotly::ggplotly(p_total_cases_map) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```   
 
 Row {data-width=400}
 -----------------------------------------------------------------------
 
+### RT-PCR Tests Conducted
+
+```{r message=FALSE, warning=FALSE}
+source(file.path(dir.rscripts, "plot_total_tests_line.R"))
+plotly::ggplotly(p_total_tests_line) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```
+
+### Age-group distribution of COVID-19 casees
+```{r message=FALSE, warning=FALSE}
+source(file.path(dir.rscripts, "plot_age_group.R"))
+plotly::ggplotly(p_agegroup_bar) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```
+
+PCR Tests
+=======================================================================
+Row {data-height=350}
+-------------------------------------
 
 ### RT-PCR Tests Conducted
-    
+
 ```{r}
-p2 <- ggplot(dat, aes(x=date, y=total_test)) +
-      geom_point(color=test_color, alpha=1, size=2) +
-      geom_line(color=test_color, alpha=1, size=1)+
-      theme(
-        axis.text.x = element_text(size = 15, color="#000000"),
-        axis.text.y = element_text(size = 15, color="#000000"),
-        axis.title = element_text(size = 15, color="#000000"),
-        plot.title = element_text(size = 15, color="#000000", hjust=0.5),
-        panel.grid.major.y = element_line(size=0.5, color="#BDBDBD"),
-        panel.grid.minor.y = element_line(size=0.25, color="#BDBDBD"),
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor.x = element_blank(),
-        axis.ticks = element_line(size=0.4, color="#000000"), 
-        strip.text = element_text(size=10, color="#000000"),
-        strip.background = element_rect(fill="#FFFFFF", color="#FFFFFF"),
-        panel.background = element_rect(fill="#FFFFFF", color="#FFFFFF"),
-        axis.line.x = element_line(size = 1.5, color="#000000"),
-        axis.line.y = element_blank(),
-        legend.text = element_text(size = 10, color="#000000"),
-        legend.title = element_blank(),
-        legend.key.size = unit(0.5, "cm"),
-        legend.position = "none") +
-      ylab("Total RT-PCR Test Conducted") +
-      xlab("Date") + 
-      ggtitle("") 
+source(file.path(dir.rscripts, "plot_total_tests_line.R"))
+plotly::ggplotly(p_total_tests_line) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```
 
-plotly::ggplotly(p2) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+Row {data-height=650}
+-------------------------------------
+   
+### RT-PCR Tests Conducted at NPHL
 
+```{r}
+source(file.path(dir.rscripts, "plot_tests_labs_line.R"))
+plotly::ggplotly(p_nphl_test_line) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```   
+    
+### RT-PCR Tests Conducted at Labs other than NPHL
+
+```{r}
+#source(file.path(dir.rscripts, "plot_tests_labs_line.R"))
+plotly::ggplotly(p_labs_test_line) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
 ```
 
 
-### Data
+    
+Data
+=======================================================================
     
 ```{r}
-dtbl <- dat %>%
-          dplyr::select(Date=date, 
-                        'Total Test'=total_test, 
-                        'Total Positive'=total_positive,
-                        'Active Cases'=active_case,
-                        'Total Recovered'=total_recovered,
-                        'Total Death'=total_death)
-
-dtbl$Date <- as.Date(dtbl$Date, format = '%Y/%m/%d')
-
-dtbl <- dtbl[order(dtbl$Date, decreasing = TRUE),]
-
+source(file.path(dir.rscripts, "table_data_total.R"))
 dtbl %>%  
-  DT::datatable(rownames = FALSE,
-            options = list(searchHighlight = TRUE, 
-                           pageLength = 20))
+  DT::datatable(rownames = FALSE, options = list(searchHighlight = TRUE, pageLength = 20))
 ```
-
