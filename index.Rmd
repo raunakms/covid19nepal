@@ -1,0 +1,216 @@
+---
+title: "COVID-19 Nepal"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    social: menu
+    source_code: embed
+    vertical_layout: fill
+---
+
+
+```{r setup, include=FALSE}
+# DATA CURATED FROM DATA RELEASED (UPDATED DAILY) FROM
+# GOVT. OF NEPAL, MINISTRY OF HEALTH AND POPULATION
+# HEALTH SECTOR RESPONSE TO CORONAVIRUS DISEASE (COVID-19)
+# URL: https://drive.google.com/drive/folders/1QhLMbT76t6Zu1sFy5qlB5aoDbHVAcnHx
+
+### DEFINE PATH ---
+dir.wrk <- getwd()
+dir.data <- file.path(dir.wrk, "data")
+dir.rscripts <- file.path(dir.wrk, "R")
+dir.map <- file.path(dir.wrk, "map")
+
+### DEFINE FILE ---
+file.dat_total <- file.path(dir.data, "data_total.tsv")
+file.dat_labs <- file.path(dir.data, "data_by_labs.tsv")
+file.dat_patients <- file.path(dir.data, "data_patients.tsv")
+file.metadata_labs <- file.path(dir.data, "metadata_labs.tsv")
+file.geo <- file.path(dir.map, "nepal_district.geojson")
+
+#------------------ Parameters ------------------
+# Set colors
+test_color <- "#4292c6"
+confirmed_color <- "#b15928"
+active_color <- "#ff7f00"
+recovered_color <- "#33a02c"
+death_color <- "#e31a1c"
+
+### DEFINE LIBRARIES ---
+source(file.path(dir.rscripts, "Rlibraries.R"))
+
+### COMPUTE BASIC STATS ---
+source(file.path(dir.rscripts, "compute_basic_stats.R"))
+```
+
+
+Summary
+=======================================================================
+Row
+-----------------------------------------------------------------------
+
+### Total Test Conducted {.value-box}
+
+```{r}
+valueBox(value = paste(format(total_test, big.mark = ","), "", sep = " "), 
+         caption = "Total Test Conducted", 
+         icon = "fas fa-vial", 
+         color = test_color)
+```
+
+### Positive {.value-box}
+
+```{r}
+valueBox(value = paste(format(total_positive, big.mark = ","), "", sep = " "), 
+         caption = "Positive Cases", 
+         icon = "fas fa-user-md", 
+         color = confirmed_color)
+```
+
+
+### active {.value-box}
+
+```{r}
+valueBox(value = paste(format(active_case, big.mark = ","), "", sep = " "), 
+         caption = "Active Cases", 
+         icon = "fas fa-ambulance", 
+         color = active_color)
+```
+
+### recovered {.value-box}
+
+```{r}
+valueBox(value = paste(format(total_recovered, big.mark = ","), "   (", format(paste(rate_recovery, "%", sep=" "), big.mark = ","), " )", "", sep = " "),  
+         caption = "Recovered Cases", icon = "fas fa-heartbeat", 
+         color = recovered_color)
+```
+
+### death {.value-box}
+
+```{r}
+valueBox(value = paste(format(total_death, big.mark = ","), "   (", format(paste(rate_death, "%", sep=" "), big.mark = ","), " )", "", sep = "  "), 
+         caption = "Death Cases", 
+         icon = "fas fa-bolt", 
+         color = death_color)
+```
+
+
+Row
+-----------------------------------------------------------------------
+
+### Total COVID-19 Cases in Nepal
+
+```{r message=FALSE, warning=FALSE}
+source(file.path(dir.rscripts, "plot_total_cases_line.R"))
+plotly::ggplotly(p_total_case_line)
+```
+
+
+### Total COVID-19 Cases in Nepal
+
+```{r message=FALSE, warning=FALSE}
+source(file.path(dir.rscripts, "plot_total_cases_choropleth.R"))
+plotly::ggplotly(p_total_cases_map) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```   
+
+Row {data-width=400}
+-----------------------------------------------------------------------
+
+### RT-PCR Tests Conducted
+
+```{r message=FALSE, warning=FALSE}
+source(file.path(dir.rscripts, "plot_total_tests_line.R"))
+plotly::ggplotly(p_total_tests_line) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```
+
+### Age-group distribution of COVID-19 patients
+```{r message=FALSE, warning=FALSE}
+source(file.path(dir.rscripts, "plot_age_group.R"))
+plotly::ggplotly(p_agegroup_bar) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```
+
+PCR Tests
+=======================================================================
+Row {data-height=350}
+-------------------------------------
+
+### RT-PCR Tests Conducted
+
+```{r}
+source(file.path(dir.rscripts, "plot_total_tests_line.R"))
+plotly::ggplotly(p_total_tests_line) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```
+
+Row {data-height=650}
+-------------------------------------
+   
+### RT-PCR Tests Conducted at NPHL
+
+```{r}
+source(file.path(dir.rscripts, "plot_tests_labs_line.R"))
+plotly::ggplotly(p_nphl_test_line) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```   
+    
+### RT-PCR Tests Conducted at Labs other than NPHL
+
+```{r}
+#source(file.path(dir.rscripts, "plot_tests_labs_line.R"))
+plotly::ggplotly(p_labs_test_line) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```
+
+Patients
+=======================================================================
+Row {data-height=500}
+-------------------------------------
+
+### Total COVID-19 Cases in Nepal
+
+```{r message=FALSE, warning=FALSE}
+#source(file.path(dir.rscripts, "plot_total_cases_line.R"))
+plotly::ggplotly(p_total_case_line)
+```
+
+
+### Total COVID-19 Cases in Nepal
+
+```{r message=FALSE, warning=FALSE}
+#source(file.path(dir.rscripts, "plot_total_cases_choropleth.R"))
+plotly::ggplotly(p_total_cases_map) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```  
+
+Row {data-height=500}
+-------------------------------------
+   
+### Age-group distribution of COVID-19 patients
+
+```{r message=FALSE, warning=FALSE}
+#source(file.path(dir.rscripts, "plot_age_group.R"))
+plotly::ggplotly(p_agegroup_bar) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```
+    
+### Histogram of Total Recovery Time
+
+```{r}
+source(file.path(dir.rscripts, "plot_recovery_time.R"))
+plotly::ggplotly(p_recovery_hist) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+```
+
+    
+Data
+=======================================================================
+
+```{r}
+#source(file.path(dir.rscripts, "table_data_total.R"))
+#dtbl %>%  
+#  DT::datatable(rownames = FALSE, options = list(searchHighlight = TRUE, pageLength = 20))
+```
+
+    
+Metadata
+=======================================================================
+
+```{r}
+#d_metalabs %>%  
+#  DT::datatable(rownames = FALSE, options = list(searchHighlight = TRUE, pageLength = 20))
+```
+

@@ -12,6 +12,9 @@ dat_patients$date_confirmed <- as.Date(dat_patients$date_confirmed, format = "%m
 dat_patients$date_recovered <- as.Date(dat_patients$date_recovered, format = "%m/%d/%y")	
 dat_patients$date_death <- as.Date(dat_patients$date_death, format = "%m/%d/%y")
 
+### LOAD METADATA: LABS ---
+dat_metalabs <- read.delim(file.metadata_labs, header=TRUE, stringsAsFactors=FALSE)
+
 ### FUNCTION: num_changes() ---
 num_changes <- function(x){
   y <- numeric()

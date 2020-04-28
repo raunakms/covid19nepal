@@ -31,17 +31,17 @@ map <- ggplot(data=d, aes(x=long, y=lat, group=group, fill=PatientGroup, text=pa
         coord_equal() +
         theme_map() +
         theme(
-          plot.title = element_text(size = 10, color="#000000", hjust=0.5),
-          #aspect.ratio = 1,
+          axis.text = element_blank(),
+          axis.title = element_blank(),
+          plot.title = element_blank(),
           panel.grid.major = element_blank(),
           panel.grid.minor = element_blank(),
-          axis.ticks = element_blank(),	
-          strip.text = element_text(size = 10, color="#000000", hjust=0.5),
-          strip.background = element_rect(fill="#FFFFFF", color="#FFFFFF"),
-          panel.background = element_rect(fill="#FFFFFF", color=NA),
-          legend.text = element_text(size = 10, color="#000000"),
-          legend.title = element_text(size = 10, color="#000000"),
-          legend.key.size = unit(0.5, "cm"),
+          axis.ticks = element_blank(), 
+          strip.text = element_blank(),
+          strip.background = element_rect(fill="#d5e4eb", color="#d5e4eb"),
+          panel.background = element_rect(fill="#d5e4eb", color="#d5e4eb"),
+          plot.background = element_rect(fill = "#d5e4eb"),
+          axis.line = element_blank(),
           legend.position = "none")
       #guides(fill=guide_legend(title="COVID-19 cases (in %)"))
 
