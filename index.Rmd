@@ -131,7 +131,7 @@ plotly::ggplotly(p_agegroup_bar) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
 
 PCR Tests
 =======================================================================
-Row {data-height=350}
+Row {data-height=500}
 -------------------------------------
 
 ### RT-PCR Tests Conducted
@@ -141,7 +141,12 @@ source(file.path(dir.rscripts, "plot_total_tests_line.R"))
 plotly::ggplotly(p_total_tests_line) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
 ```
 
-Row {data-height=650}
+### 
+
+```{r}
+```
+
+Row {data-height=500}
 -------------------------------------
    
 ### RT-PCR Tests Conducted at NPHL
@@ -175,7 +180,7 @@ plotly::ggplotly(p_total_case_line)
 
 ```{r message=FALSE, warning=FALSE}
 #source(file.path(dir.rscripts, "plot_total_cases_choropleth.R"))
-plotly::ggplotly(p_total_cases_map) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
+#plotly::ggplotly(p_total_cases_map) %>% layout(hoverlabel=list(bgcolor="#FFFFFF"))
 ```  
 
 Row {data-height=500}
