@@ -53,3 +53,6 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 52	M	50	4/26/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
 53	M	24	4/28/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
 54	M	35	4/28/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+55	M	31	4/29/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+56	M	43	4/29/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+57	M	46	4/29/2020	NA	NA	Parsa	Province No. 2	Imported Case	India	NSRH
