@@ -58,3 +58,19 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 57	M	46	4/29/2020	NA	NA	Parsa	Province No. 2	Imported Case	India	NSRH
 58	M	25	5/1/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
 59	M	60	5/1/2020	NA	NA	Banke	Province No. 5	Imported Case	India	SKMCH
+60	M	36	5/3/2020	NA	NA	Parsa	Province No. 2	NA	NA	NSRH
+61	M	16	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+62	M	21	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+63	M	34	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+64	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+65	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+66	F	40	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+67	F	55	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+68	F	60	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+69	F	7	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+70	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+71	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+72	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+73	F	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+74	F	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+75	F	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
