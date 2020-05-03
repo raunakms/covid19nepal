@@ -57,4 +57,4 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 56	M	43	4/29/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
 57	M	46	4/29/2020	NA	NA	Parsa	Province No. 2	Imported Case	India	NSRH
 58	M	25	5/1/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
-59	M	60	5/1/2020	NA	NA	Banke	Province No. 5	Imported Case	India	BZH
+59	M	60	5/1/2020	NA	NA	Banke	Province No. 5	Imported Case	India	SKMCH
