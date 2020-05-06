@@ -74,3 +74,10 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 73	F	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
 74	F	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
 75	F	NA	5/3/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+76	M	22	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+77	M	30	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+78	M	40	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+79	F	9	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+80	F	32	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+81	F	34	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+82	F	55	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
