@@ -12,21 +12,21 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 11	M	44	4/12/2020	4/26/2020	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
 12	M	55	4/12/2020	4/26/2020	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
 13	F	65	4/13/2020	4/23/2020	NA	Kailali	Sudurpashchim	Local Transmission	Domestic	SEPH
-14	M	19	4/13/2020	4/26/2020	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+14	M	19	4/13/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
 15	F	81	4/14/2020	4/23/2020	NA	Lalitpur	Bagmati	Imported Case	UK,Qatar	PAHS
-16	M	58	4/14/2020	4/23/2020	NA	Lalitpur	Bagmati	Imported Case	UK,Qatar	PAHS
-17	M	34	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
-18	M	29	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
-19	M	26	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
-20	M	28	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
+16	M	58	4/14/2020	NA	NA	Lalitpur	Bagmati	Imported Case	UK,Qatar	PAHS
+17	M	34	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
+18	M	29	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
+19	M	26	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
+20	M	28	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
 21	M	28	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
 22	M	28	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
 23	M	28	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
 24	M	22	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
 25	M	25	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
-26	M	20	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
+26	M	20	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
 27	M	40	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
-28	M	29	4/18/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
+28	M	29	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
 29	M	27	4/18/2020	4/25/2020	NA	Chitwan	Bagmati	Imported Case	UK,Hongkong	BHTH
 30	F	63	4/18/2020	NA	NA	Chitwan	Bagmati	Imported Case	UK,Hongkong	BHTH
 31	M	65	4/19/2020	NA	NA	Udayapur	Province No. 1	Local Transmission	Domestic	KOSH
@@ -81,3 +81,20 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 80	F	32	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
 81	F	34	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
 82	F	55	5/5/2020	NA	NA	Banke	Province No. 5	Local Transmission	Domestic	SKMCH
+83	M	66	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+84	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+85	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+86	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+87	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+88	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+89	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+90	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+91	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+92	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+93	F	0.2	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+94	F	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+95	F	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+96	F	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+97	F	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+98	F	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+99	F	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
