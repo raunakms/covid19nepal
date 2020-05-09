@@ -98,6 +98,14 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 97	F	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 98	F	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 99	F	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
-100	M	16	5/7/2020	NA	NA	Kapilavastu	Province No. 5	Imported Case	India	LZH
-101	M	22	5/7/2020	NA	NA	Kapilavastu	Province No. 5	Imported Case	India	LZH
+100	M	16	5/7/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+101	M	22	5/7/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
 102	M	16	5/8/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+103	F	18	5/9/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
+104	F	45	5/9/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
+105	F	65	5/9/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
+106	M	17	5/9/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+107	M	18	5/9/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+108	M	18	5/9/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+109	M	62	5/9/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+110	F	43	5/9/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
