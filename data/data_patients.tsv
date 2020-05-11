@@ -8,19 +8,19 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 7	M	21	4/4/2020	4/19/2020	NA	Kailali	Sudurpashchim	Imported Case	India	SEPH
 8	M	41	4/4/2020	4/22/2020	NA	Kanchanpur	Sudurpashchim	Imported Case	India	SEPH
 9	F	34	4/4/2020	5/8/2020	NA	Kailali	Sudurpashchim	Local Transmission	NA	SEPH
-10	M	37	4/12/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+10	M	37	4/12/2020	4/26/2020	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
 11	M	44	4/12/2020	4/26/2020	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
 12	M	55	4/12/2020	4/26/2020	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
 13	F	65	4/13/2020	4/23/2020	NA	Kailali	Sudurpashchim	Local Transmission	Domestic	SEPH
-14	M	19	4/13/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+14	M	19	4/13/2020	4/26/2020	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
 15	F	81	4/14/2020	4/23/2020	NA	Lalitpur	Bagmati	Imported Case	UK,Qatar	PAHS
-16	M	58	4/14/2020	NA	NA	Lalitpur	Bagmati	Imported Case	UK,Qatar	PAHS
+16	M	58	4/14/2020	4/23/2020	NA	Lalitpur	Bagmati	Imported Case	UK,Qatar	PAHS
 17	M	34	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 18	M	29	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 19	M	26	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 20	M	28	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
-21	M	28	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
-22	M	28	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
+21	M	28	4/18/2020	5/11/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
+22	M	28	4/18/2020	5/11/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 23	M	28	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 24	M	22	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 25	M	25	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
@@ -109,3 +109,27 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 108	M	18	5/9/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
 109	M	62	5/9/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 110	F	43	5/9/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
+111	M	18	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+112	M	19	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+113	M	20	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+114	M	20	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+115	M	24	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+116	M	30	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+117	M	31	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+118	M	34	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+119	M	34	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+120	M	NA	5/10/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+121	M	18	5/11/2020	NA	NA	Saptari	Province No. 2	Imported Case	India	SZH
+122	M	15	5/11/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+123	M	19	5/11/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+124	M	23	5/11/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+125	M	30	5/11/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+126	M	32	5/11/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+127	M	38	5/11/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+128	M	24	5/11/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+129	M	26	5/11/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+130	M	27	5/11/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+131	M	30	5/11/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+132	M	32	5/11/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+133	M	40	5/11/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+134	F	11	5/11/2020	NA	NA	Bardiya	Province No. 5	Imported Case	India	LZH
