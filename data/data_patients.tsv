@@ -133,3 +133,86 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 132	M	32	5/11/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
 133	M	40	5/11/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
 134	F	11	5/11/2020	NA	NA	Bardiya	Province No. 5	Imported Case	India	LZH
+135	M	NA	5/12/2020	NA	NA	Kapilbastu	Province No. 5			LZH
+136	M	NA	5/12/2020	NA	NA	Kapilbastu	Province No. 5			LZH
+137	M	NA	5/12/2020	NA	NA	Kapilbastu	Province No. 5			LZH
+138	M	NA	5/12/2020	NA	NA	Kapilbastu	Province No. 5			LZH
+139	M	NA	5/12/2020	NA	NA	Kapilbastu	Province No. 5			LZH
+140	M	NA	5/12/2020	NA	NA	Kapilbastu	Province No. 5			LZH
+141	M	NA	5/12/2020	NA	NA	Kapilbastu	Province No. 5			LZH
+142	M	NA	5/12/2020	NA	NA	Kapilbastu	Province No. 5			LZH
+143	M	NA	5/12/2020	NA	NA	Rupandehi	Province No. 5			LZH
+144	M	NA	5/12/2020	NA	NA	Rupandehi	Province No. 5			LZH
+145	M	NA	5/12/2020	NA	NA	Rupandehi	Province No. 5			LZH
+146	M	NA	5/12/2020	NA	NA	Rupandehi	Province No. 5			LZH
+147	M	NA	5/12/2020	NA	NA	Rupandehi	Province No. 5			LZH
+148	M	NA	5/12/2020	NA	NA	Rupandehi	Province No. 5			LZH
+149	M	NA	5/12/2020	NA	NA	Rupandehi	Province No. 5			LZH
+150	M	NA	5/12/2020	NA	NA	Rupandehi	Province No. 5			LZH
+151	M	NA	5/12/2020	NA	NA	Rupandehi	Province No. 5			LZH
+152	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+153	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+154	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+155	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+156	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+157	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+158	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+159	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+160	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+161	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+162	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+163	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+164	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+165	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+166	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+167	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+168	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+169	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+170	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+171	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+172	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+173	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+174	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+175	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+176	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+177	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+178	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+179	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+180	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+181	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+182	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+183	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+184	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+185	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+186	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+187	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+188	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+189	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+190	M	NA	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+191	M	NA	5/12/2020	NA	NA	Bara	Province No. 2	Community Transmission	Domestic	NSRH
+192	F	22	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+193	F	28	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+194	F	28	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+195	F	32	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+196	F	45	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+197	F	60	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+198	M	16	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+199	M	22	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+200	M	24	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+201	M	25	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+202	M	25	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+203	M	28	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+204	M	28	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+205	M	32	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+206	M	59	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+207	M	55	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+208	M	61	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+209	M	61	5/12/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+210	M	16	5/12/2020	NA	NA	Mahottari	Province No. 2	Community Transmission	Domestic	NSRH
+211	M	35	5/12/2020	NA	NA	Mahottari	Province No. 2	Community Transmission	Domestic	NSRH
+212	F	20	5/12/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NSRH
+213	M	40	5/12/2020	NA	NA	Dhanusa	Province No. 2	Community Transmission	Domestic	NSRH
+214	F	25	5/12/2020	NA	NA	Bhaktapur	Bagmati	Community Transmission	Domestic	
+215	M	27	5/12/2020	NA	NA	Bhaktapur	Bagmati	Community Transmission	Domestic	
+216	F	33	5/12/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	
+217	M	45	5/12/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	
