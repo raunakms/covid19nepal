@@ -244,3 +244,16 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 243	M	36	5/13/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
 244	M	32	5/14/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
 245	F	6	5/14/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+246	M	49	5/14/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+247	M	7	5/14/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
+248	F	17	5/14/2020	NA	NA	Dhanusa	Province No. 2	NA	NA	NA
+249	F	30	5/14/2020	NA	NA	Dhading	Bagmati	NA	NA	NA
+250	M	37	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+251	M	18	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+252	M	20	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+253	M	22	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+254	M	25	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+255	M	25	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+256	M	27	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+257	M	32	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+258	M	36	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
