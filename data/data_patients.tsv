@@ -273,3 +273,11 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 271	M	29	5/16/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 272	F	18	5/16/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
 273	F	25	5/16/2020	NA	NA	Chitwan	Bagmati	Community Transmission	Domestic	NA
+274	M	25	5/16/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH	PPHLSN
+275	M	34	5/16/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH	PPHLSN
+276	M	44	5/16/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH	PPHLSN
+277	M	26	5/16/2020	NA	NA	Kavre	Bagmati	Community Transmission	Domestic	NA
+278	M	52	5/16/2020	NA	NA	Mahottari	Province No. 2	Community Transmission	Domestic	NSRH
+279	F	29	5/16/2020	NA	5/16/2020	Sindhupalchok	Bagmati	Community Transmission	Domestic	NA
+280	M	20	5/16/2020	NA	NA	Dhanusa	Province No. 2	Community Transmission	Domestic	NSRH
+281	M	65	5/16/2020	NA	NA	Dhanusa	Province No. 2	Community Transmission	Domestic	NSRH
