@@ -23,7 +23,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 22	M	28	4/18/2020	5/11/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 23	M	28	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 24	M	22	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
-25	M	25	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
+25	M	25	4/18/2020	5/15/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 26	M	20	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 27	M	40	4/18/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 28	M	29	4/18/2020	5/6/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
@@ -257,3 +257,19 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 256	M	27	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
 257	M	32	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
 258	M	36	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+259	M	9	5/15/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+260	M	10	5/15/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+261	F	23	5/15/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+262	F	46	5/15/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+263	M	25	5/15/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
+264	M	23	5/15/2020	NA	NA	Dang	Province No. 5	NA	NA	NA
+265	M	36	5/15/2020	NA	NA	Dang	Province No. 5	NA	NA	NA
+266	M	34	5/15/2020	NA	NA	Dang	Province No. 5	NA	NA	NA
+267	M	7	5/15/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
+267	M	7	5/15/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
+268	F	28	5/16/2020	NA	NA	Bardiya	Province No. 5	Imported Case	India	LZH
+269	M	30	5/16/2020	NA	NA	Siraha	Province No. 2	Community Transmission	Domestic	NA
+270	M	28	5/16/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+271	M	29	5/16/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+272	F	18	5/16/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+273	F	25	5/16/2020	NA	NA	Chitwan	Bagmati	Community Transmission	Domestic	NA
