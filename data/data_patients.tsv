@@ -262,20 +262,19 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 261	F	23	5/15/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 262	F	46	5/15/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 263	M	25	5/15/2020	NA	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
-264	M	23	5/15/2020	NA	NA	Dang	Province No. 5	NA	NA	NA
-265	M	36	5/15/2020	NA	NA	Dang	Province No. 5	NA	NA	NA
-266	M	34	5/15/2020	NA	NA	Dang	Province No. 5	NA	NA	NA
-267	M	7	5/15/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
-267	M	7	5/15/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
+264	M	23	5/15/2020	NA	NA	Dang	Province No. 5	Imported Case	India	NA
+265	M	36	5/15/2020	NA	NA	Dang	Province No. 5	Imported Case	India	NA
+266	M	34	5/15/2020	NA	NA	Dang	Province No. 5	Imported Case	India	NA
+267	M	7	5/15/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
 268	F	28	5/16/2020	NA	NA	Bardiya	Province No. 5	Imported Case	India	LZH
-269	M	30	5/16/2020	NA	NA	Siraha	Province No. 2	Community Transmission	Domestic	NA
+269	M	30	5/16/2020	NA	NA	Siraha	Province No. 2	Imported Case	Saudi Arabia	NA
 270	M	28	5/16/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 271	M	29	5/16/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 272	F	18	5/16/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
 273	F	25	5/16/2020	NA	NA	Chitwan	Bagmati	Community Transmission	Domestic	NA
-274	M	25	5/16/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH	PPHLSN
-275	M	34	5/16/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH	PPHLSN
-276	M	44	5/16/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH	PPHLSN
+274	M	25	5/16/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+275	M	34	5/16/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+276	M	44	5/16/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
 277	M	26	5/16/2020	NA	NA	Kavre	Bagmati	Community Transmission	Domestic	NA
 278	M	52	5/16/2020	NA	NA	Mahottari	Province No. 2	Community Transmission	Domestic	NSRH
 279	F	29	5/16/2020	NA	5/16/2020	Sindhupalchok	Bagmati	Community Transmission	Domestic	NA
