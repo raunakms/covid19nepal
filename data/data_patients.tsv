@@ -278,5 +278,19 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 277	M	26	5/16/2020	NA	NA	Kavre	Bagmati	Community Transmission	Domestic	NA
 278	M	52	5/16/2020	NA	NA	Mahottari	Province No. 2	Community Transmission	Domestic	NSRH
 279	F	29	5/16/2020	NA	5/16/2020	Sindhupalchok	Bagmati	Community Transmission	Domestic	NA
-280	M	20	5/16/2020	NA	NA	Dhanusa	Province No. 2	Community Transmission	Domestic	NSRH
-281	M	65	5/16/2020	NA	NA	Dhanusa	Province No. 2	Community Transmission	Domestic	NSRH
+280	M	20	5/16/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NSRH
+281	M	65	5/16/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NSRH
+282	M	18	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+283	M	32	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+284	M	36	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+285	M	39	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+286	M	39	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+287	M	42	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+288	M	48	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+289	F	28	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+290	F	30	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+291	F	33	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+292	M	25	5/17/2020	NA	5/17/2020	Banke	Province No. 5	Imported Case	India	NA
+293	F	34	5/17/2020	NA	NA	Dhankuta	Province No. 1	NA	NA	NA
+294	F	29	5/17/2020	NA	NA	Morang	Province No. 1	NA	NA	NA
+295	M	36	5/17/2020	NA	NA	Morang	Province No. 1	NA	NA	NA
