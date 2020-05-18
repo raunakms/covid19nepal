@@ -353,7 +353,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 352	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
 353	F	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
 354	M	NA	5/18/2020	NA	NA	Morang	Province No. 1	Imported Case	India	NA
-355	M	NA	5/18/2020	NA	NA	Gulmi	Province No. 5	Imported Case	India	NA
+355	M	49	5/18/2020	NA	NA	Gulmi	Province No. 5	Imported Case	India	NA
 356	M	NA	5/18/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NA
 357	M	NA	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NA
 358	M	NA	5/18/2020	NA	NA	Dang	Province No. 5	Imported Case	India	NA
