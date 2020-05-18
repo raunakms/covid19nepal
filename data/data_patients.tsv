@@ -246,7 +246,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 245	F	6	5/14/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
 246	M	49	5/14/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
 247	M	7	5/14/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
-248	F	17	5/14/2020	NA	NA	Dhanusa	Province No. 2	NA	NA	NA
+248	F	17	5/14/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NA
 249	F	30	5/14/2020	NA	NA	Dhading	Bagmati	NA	NA	NA
 250	M	37	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
 251	M	18	5/15/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
@@ -291,6 +291,86 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 290	F	30	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
 291	F	33	5/17/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
 292	M	25	5/17/2020	NA	5/17/2020	Banke	Province No. 5	Imported Case	India	NA
-293	F	34	5/17/2020	NA	NA	Dhankuta	Province No. 1	NA	NA	NA
-294	F	29	5/17/2020	NA	NA	Morang	Province No. 1	NA	NA	NA
-295	M	36	5/17/2020	NA	NA	Morang	Province No. 1	NA	NA	NA
+293	F	34	5/18/2020	NA	NA	Dhankuta	Province No. 1	Imported Case	India	NA
+294	F	29	5/18/2020	NA	NA	Morang	Province No. 1	Imported Case	India	NA
+295	M	36	5/18/2020	NA	NA	Morang	Province No. 1	Imported Case	India	NA
+296	M	21	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+297	M	21	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+298	M	23	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+299	M	25	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+300	M	25	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+301	M	29	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+302	M	30	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+303	F	28	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NSRH
+304	F	38	5/18/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+305	M	NA	5/18/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NSRH
+306	M	NA	5/18/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NSRH
+307	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+308	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+309	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+310	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+311	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+312	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+313	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+314	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+315	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+316	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+317	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+318	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+319	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+320	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+321	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+322	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+323	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+324	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+325	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+326	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+327	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+328	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+329	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+330	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+331	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+332	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+333	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+334	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+335	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+336	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+337	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+338	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+339	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+340	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+341	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+342	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+343	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+344	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+345	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+346	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+347	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+348	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+349	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+350	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+351	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+352	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+353	F	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+354	M	NA	5/18/2020	NA	NA	Morang	Province No. 1	Imported Case	India	NA
+355	M	NA	5/18/2020	NA	NA	Gulmi	Province No. 5	Imported Case	India	NA
+356	M	NA	5/18/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NA
+357	M	NA	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NA
+358	M	NA	5/18/2020	NA	NA	Dang	Province No. 5	Imported Case	India	NA
+359	M	NA	5/18/2020	NA	NA	Dhading	Bagmati	Imported Case	India	NA
+360	M	NA	5/18/2020	NA	NA	Khotang	Province No. 1	Imported Case	India	NA
+361	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+362	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+363	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+364	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+365	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+366	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+367	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+368	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+369	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+370	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+371	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+372	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+373	M	NA	5/18/2020	NA	NA	Dailekh	Karnali	Imported Case	India	NA
+374	M	NA	5/18/2020	NA	NA	Sunsari	Province No. 1	Imported Case	India	NA
+375	M	NA	5/18/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	NA
