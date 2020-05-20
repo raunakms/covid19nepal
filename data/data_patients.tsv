@@ -47,7 +47,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 46	F	55	4/23/2020	5/8/2020	NA	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 47	M	14	4/23/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NSRH
 48	M	26	4/23/2020	NA	NA	Bhojpur	Province No. 1	Imported Case	Saudi Arabia	KOSH
-49	M	62	4/25/2020	NA	NA	Jhapa	Province No. 1	Local Transmission	Domestic	KOSH
+49	M	62	4/25/2020	5/19/2020	NA	Jhapa	Province No. 1	Local Transmission	Domestic	KOSH
 50	M	50	4/26/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
 51	M	50	4/26/2020	NA	NA	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
 52	M	50	4/26/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
@@ -353,7 +353,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 352	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
 353	F	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
 354	M	NA	5/18/2020	NA	NA	Morang	Province No. 1	Imported Case	India	NA
-355	M	49	5/18/2020	NA	NA	Gulmi	Province No. 5	Imported Case	India	NA
+355	M	49	5/18/2020	NA	5/20/2020	Gulmi	Province No. 5	Imported Case	India	NA
 356	M	NA	5/18/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NA
 357	M	NA	5/18/2020	NA	NA	Rautahat	Province No. 2	Imported Case	India	NA
 358	M	NA	5/18/2020	NA	NA	Dang	Province No. 5	Imported Case	India	NA
@@ -373,4 +373,31 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 372	M	NA	5/18/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
 373	M	NA	5/18/2020	NA	NA	Dailekh	Karnali	Imported Case	India	NA
 374	M	NA	5/18/2020	NA	NA	Sunsari	Province No. 1	Imported Case	India	NA
-375	M	NA	5/18/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	NA
+375	M	NA	5/18/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+376	M	NA	5/19/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+377	M	NA	5/19/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+378	M	NA	5/19/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+379	M	NA	5/19/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+380	M	NA	5/19/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+381	M	NA	5/19/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+382	M	NA	5/19/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+383	M	NA	5/19/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+384	M	NA	5/19/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+385	M	NA	5/19/2020	NA	NA	Sunsari	Province No. 1	Imported Case	India	NA
+386	M	24	5/19/2020	NA	NA	Dhankuta	Province No. 1	Community Transmission	Domestic	NA
+387	M	28	5/19/2020	NA	NA	Dhankuta	Province No. 1	Community Transmission	Domestic	NA
+388	M	29	5/19/2020	NA	NA	Dhankuta	Province No. 1	Community Transmission	Domestic	NA
+389	F	37	5/19/2020	NA	NA	Dhankuta	Province No. 1	Local Transmission	Domestic	NA
+390	M	35	5/19/2020	NA	NA	Dhankuta	Province No. 1	Community Transmission	Domestic	NA
+391	M	NA	5/19/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NA
+392	M	NA	5/19/2020	NA	NA	Ramechhap	Bagmati	Community Transmission	Domestic	NA
+393	M	NA	5/19/2020	NA	NA	Sindhuli	Bagmati	Community Transmission	Domestic	NA
+394	M	NA	5/19/2020	NA	NA	Makwanpur	Bagmati	Community Transmission	Domestic	NA
+395	M	NA	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
+396	M	NA	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
+397	M	NA	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
+398	F	24	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
+399	M	3	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
+400	F	NA	5/19/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+401	M	NA	5/19/2020	NA	NA	Morang	Province No. 1	Imported Case	India	NA
+402	M	NA	5/19/2020	NA	NA	Bhaktapur	Bagmati	Community Transmission	Domestic	NA
