@@ -20,7 +20,7 @@ for(i in 1:nrow(dm)){
 }
 
 #### COMPUTE CLASS INTERVAL ---
-d <- d %>% mutate(PatientGroup = cut(ConfirmedPercent, seq(0, 100, 5), include.lowest=FALSE))
+d <- d %>% mutate(PatientGroup = cut(ConfirmedPercent, seq(0, 102, 3), include.lowest=FALSE))
 
 
 #### Plot Choropleth Maps: Nepal with all Districts ---
