@@ -244,7 +244,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 243	M	36	5/13/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
 244	M	32	5/14/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
 245	F	6	5/14/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
-246	M	49	5/14/2020	NA	NA	Nawalparasi(E)	Province No. 5	Community Transmission	Domestic	NA
+246	M	49	5/14/2020	NA	NA	Nawalparasi(E)	Gandaki	Community Transmission	Domestic	NA
 247	M	7	5/14/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
 248	F	17	5/14/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NA
 249	F	30	5/14/2020	NA	NA	Dhading	Bagmati	NA	NA	NA
@@ -456,3 +456,33 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 455	M	32	5/21/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
 456	F	42	5/21/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
 457	M	19	5/21/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+458	M	45	5/22/2020	NA	NA	Nawalparasi(E)	Gandaki	Community Transmission	Domestic	NA
+459	M	74	5/22/2020	NA	NA	Chitwan	Bagmati	Community Transmission	Domestic	NA
+460	F	73	5/22/2020	NA	NA	Chitwan	Bagmati	Community Transmission	Domestic	NA
+461	M	33	5/22/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+462	M	35	5/22/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+463	F	15	5/22/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+464	M	24	5/22/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+465	M	25	5/22/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+466	M	27	5/22/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+467	M	29	5/22/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+468	M	34	5/22/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+469	M	36	5/22/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+470	M	45	5/22/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+471	M	53	5/22/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+472	F	8	5/22/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+473	M	22	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+474	M	22	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+475	M	24	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+476	M	25	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+477	M	25	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+478	M	27	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+479	M	32	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+480	M	34	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+481	M	34	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+482	M	35	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+483	M	38	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+484	M	38	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+485	M	38	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+486	M	39	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+487	F	18	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
