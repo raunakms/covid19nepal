@@ -82,7 +82,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 81	F	34	5/5/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
 82	F	55	5/5/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
 83	M	66	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
-84	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+84	M	37	5/6/2020	5/21/2020	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 85	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 86	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 87	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
@@ -212,9 +212,9 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 211	M	35	5/12/2020	NA	NA	Mahottari	Province No. 2	Community Transmission	Domestic	NSRH
 212	F	20	5/12/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NSRH
 213	M	40	5/12/2020	NA	NA	Dhanusa	Province No. 2	Community Transmission	Domestic	NSRH
-214	F	25	5/12/2020	NA	NA	Bhaktapur	Bagmati	Community Transmission	Domestic	NA
-215	M	27	5/12/2020	NA	NA	Bhaktapur	Bagmati	Community Transmission	Domestic	NA
-216	F	33	5/12/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
+214	F	25	5/12/2020	5/21/2020	NA	Bhaktapur	Bagmati	Community Transmission	Domestic	STIDH
+215	M	27	5/12/2020	5/21/2020	NA	Bhaktapur	Bagmati	Community Transmission	Domestic	STIDH
+216	F	33	5/12/2020	5/21/2020	NA	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
 217	M	45	5/12/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
 218	M	36	5/13/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
 219	M	22	5/13/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
@@ -244,7 +244,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 243	M	36	5/13/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
 244	M	32	5/14/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
 245	F	6	5/14/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
-246	M	49	5/14/2020	NA	NA	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
+246	M	49	5/14/2020	NA	NA	Nawalparasi(E)	Province No. 5	Community Transmission	Domestic	NA
 247	M	7	5/14/2020	NA	NA	Kathmandu	Bagmati	NA	NA	NA
 248	F	17	5/14/2020	NA	NA	Dhanusa	Province No. 2	Imported Case	India	NA
 249	F	30	5/14/2020	NA	NA	Dhading	Bagmati	NA	NA	NA
@@ -443,3 +443,16 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 442	M	46	5/21/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
 443	M	34	5/21/2020	NA	NA	Dhankuta	Province No. 1	Local Transmission	Domestic	NA
 444	F	51	5/21/2020	NA	NA	Sunsari	Province No. 1	Imported Case	India	NA
+445	M	27	5/21/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+446	M	17	5/21/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+447	M	18	5/21/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+448	M	18	5/21/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+449	M	20	5/21/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+450	M	20	5/21/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+451	M	23	5/21/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+452	M	52	5/21/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+453	M	55	5/21/2020	NA	NA	Jhapa	Province No. 1	Imported Case	India	KOSH
+454	M	37	5/21/2020	NA	NA	Dang	Province No. 5	Imported Case	India	NA
+455	M	32	5/21/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+456	F	42	5/21/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+457	M	19	5/21/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
