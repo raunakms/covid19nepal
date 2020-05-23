@@ -393,11 +393,11 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 392	M	NA	5/19/2020	NA	NA	Ramechhap	Bagmati	Community Transmission	Domestic	NA
 393	M	NA	5/19/2020	NA	NA	Sindhuli	Bagmati	Community Transmission	Domestic	NA
 394	M	NA	5/19/2020	NA	NA	Makwanpur	Bagmati	Community Transmission	Domestic	NA
-395	M	NA	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
-396	M	NA	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
-397	M	NA	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
-398	F	24	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
-399	M	3	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	NA
+395	M	NA	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
+396	M	NA	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
+397	M	NA	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
+398	F	24	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
+399	M	3	5/19/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
 400	F	NA	5/19/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
 401	M	NA	5/19/2020	NA	NA	Morang	Province No. 1	Imported Case	India	NA
 402	M	NA	5/19/2020	NA	NA	Bhaktapur	Bagmati	Community Transmission	Domestic	NA
@@ -515,3 +515,35 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 514	M	34	5/22/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
 515	M	38	5/22/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
 516	M	45	5/22/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+517	M	17	5/23/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+518	M	19	5/23/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+519	M	22	5/23/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+520	M	29	5/23/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+521	M	35	5/23/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+522	M	40	5/23/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+523	M	42	5/23/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+524	F	27	5/23/2020	NA	NA	Kapilbastu	Province No. 5	Imported Case	India	LZH
+525	M	18	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+526	M	20	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+527	M	20	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+528	M	20	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+529	M	21	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+530	M	22	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+531	M	23	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+532	M	26	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+533	M	26	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+534	M	28	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+535	M	33	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+536	M	35	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+537	M	35	5/23/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+538	F	37	5/23/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+539	M	35	5/23/2020	NA	NA	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
+540	M	20	5/23/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+541	M	20	5/23/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+542	M	24	5/23/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+543	M	24	5/23/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+544	M	27	5/23/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+545	M	30	5/23/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+546	M	30	5/23/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+547	M	55	5/23/2020	NA	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
+548	M	52	5/23/2020	NA	NA	Chitwan	Bagmati	Community Transmission	Domestic	NA
