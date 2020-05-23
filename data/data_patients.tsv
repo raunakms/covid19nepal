@@ -57,30 +57,30 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 56	M	43	4/29/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
 57	M	46	4/29/2020	NA	NA	Parsa	Province No. 2	Imported Case	India	NSRH
 58	M	25	5/1/2020	5/13/2020	NA	Rupandehi	Province No. 5	Imported Case	India	LZH
-59	M	60	5/1/2020	NA	NA	Banke	Province No. 5	Imported Case	India	SKMCH
+59	M	60	5/1/2020	5/22/2020	NA	Banke	Province No. 5	Imported Case	India	SKMCH
 60	M	36	5/3/2020	NA	NA	Parsa	Province No. 2	NA	NA	NSRH
-61	M	16	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-62	M	21	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-63	M	34	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-64	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-65	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-66	F	40	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-67	F	55	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-68	F	60	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-69	F	7	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+61	M	16	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+62	M	21	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+63	M	34	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+64	M	37	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+65	M	NA	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+66	F	40	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+67	F	55	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+68	F	60	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+69	F	7	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
 70	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
 71	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-72	M	NA	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-73	F	NA	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-74	F	NA	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-75	F	NA	5/3/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-76	M	22	5/5/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-77	M	30	5/5/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-78	M	40	5/5/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-79	F	9	5/5/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-80	F	32	5/5/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-81	F	34	5/5/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
-82	F	55	5/5/2020	NA	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+72	M	NA	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+73	F	NA	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+74	F	NA	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+75	F	NA	5/3/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+76	M	22	5/5/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+77	M	30	5/5/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+78	M	40	5/5/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+79	F	9	5/5/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+80	F	32	5/5/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+81	F	34	5/5/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
+82	F	55	5/5/2020	5/22/2020	NA	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
 83	M	66	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 84	M	37	5/6/2020	5/21/2020	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 85	M	NA	5/6/2020	NA	NA	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
@@ -486,3 +486,32 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	district	province	ca
 485	M	38	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
 486	M	39	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
 487	F	18	5/22/2020	NA	NA	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+488	M	19	5/22/2020	NA	NA	Kailali	Kailali	Imported Case	India	SEPH
+489	M	23	5/22/2020	NA	NA	Kailali	Kailali	Imported Case	India	SEPH
+490	M	26	5/22/2020	NA	NA	Kailali	Kailali	Imported Case	India	SEPH
+491	M	28	5/22/2020	NA	NA	Dadeldhura	Sudurpashchim	Imported Case	India	SEPH
+492	M	22	5/22/2020	NA	NA	Baitadi	Sudurpashchim	Imported Case	India	SEPH
+493	M	14	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+494	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+495	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+496	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+497	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+498	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+499	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+500	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+501	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+502	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+503	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+504	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+505	M	NA	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+506	M	61	5/22/2020	NA	NA	Banke	Province No. 5	Imported Case	India	NA
+507	M	41	5/22/2020	NA	NA	Morang	Province No. 1	Imported Case	India	NA
+508	F	54	5/22/2020	NA	NA	Makwanpur	Bagmati	Community Transmission	Domestic	NA
+509	F	42	5/22/2020	NA	NA	Bhaktapur	Bagmati	Community Transmission	Domestic	NA
+510	M	35	5/22/2020	NA	NA	Saptari	Province No. 2	Community Transmission	Domestic	NA
+511	M	22	5/22/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+512	M	27	5/22/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+513	M	30	5/22/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+514	M	34	5/22/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+515	M	38	5/22/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
+516	M	45	5/22/2020	NA	NA	Bara	Province No. 2	Imported Case	India	NSRH
