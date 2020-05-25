@@ -1,5 +1,5 @@
 case_id	gender	age	date_confirmed	date_recovered	date_death	status	district	province	case_type	travel_history	hospital_id
-1	M	31	1/28/2020	1/31/2020	NA	Recovered	Kathmandu	Bagmati	Imported Case	China	STIDH
+1	M	31	1/13/2020	1/31/2020	NA	Recovered	Kathmandu	Bagmati	Imported Case	China	STIDH
 2	F	19	3/23/2020	4/18/2020	NA	Recovered	Kathmandu	Bagmati	Imported Case	France,Qatar	STIDH
 3	M	32	3/25/2020	4/22/2020	NA	Recovered	Kathmandu	Bagmati	Imported Case	UAE	STIDH
 4	M	34	3/28/2020	4/22/2020	NA	Recovered	Kailali	Sudurpashchim	Imported Case	UAE	SEPH
@@ -45,17 +45,17 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	status	district	prov
 44	M	60	4/22/2020	5/8/2020	NA	Recovered	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 45	M	72	4/22/2020	5/8/2020	NA	Recovered	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
 46	F	55	4/23/2020	5/8/2020	NA	Recovered	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
-47	M	14	4/23/2020	5/23/2020	NA	Recovered	Dhanusa	Province No. 2	Imported Case	India	NSRH
+47	M	14	4/23/2020	NA	NA	Active	Dhanusa	Province No. 2	Imported Case	India	NSRH
 48	M	26	4/23/2020	NA	NA	Active	Bhojpur	Province No. 1	Imported Case	Saudi Arabia	KOSH
 49	M	62	4/25/2020	5/19/2020	NA	Recovered	Jhapa	Province No. 1	Local Transmission	Domestic	KOSH
-50	M	50	4/26/2020	5/23/2020	NA	Recovered	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
-51	M	50	4/26/2020	5/23/2020	NA	Recovered	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+50	M	50	4/26/2020	NA	NA	Active	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
+51	M	50	4/26/2020	NA	NA	Active	Parsa	Province No. 2	Local Transmission	Domestic	NSRH
 52	M	50	4/26/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
 53	M	24	4/28/2020	5/23/2020	NA	Recovered	Rautahat	Province No. 2	Imported Case	India	NSRH
 54	M	35	4/28/2020	5/23/2020	NA	Recovered	Rautahat	Province No. 2	Imported Case	India	NSRH
 55	M	31	4/29/2020	5/23/2020	NA	Recovered	Bara	Province No. 2	Imported Case	India	NSRH
-56	M	43	4/29/2020	5/23/2020	NA	Recovered	Bara	Province No. 2	Imported Case	India	NSRH
-57	M	46	4/29/2020	5/23/2020	NA	Recovered	Parsa	Province No. 2	Imported Case	India	NSRH
+56	M	43	4/29/2020	NA	NA	Active	Bara	Province No. 2	Imported Case	India	NSRH
+57	M	46	4/29/2020	NA	NA	Active	Parsa	Province No. 2	Imported Case	India	NSRH
 58	M	25	5/1/2020	5/13/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
 59	M	60	5/1/2020	5/22/2020	NA	Recovered	Banke	Province No. 5	Imported Case	India	SKMCH
 60	M	36	5/3/2020	5/23/2020	NA	Recovered	Parsa	Province No. 2	NA	NA	NSRH
@@ -83,12 +83,12 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	status	district	prov
 82	F	55	5/5/2020	5/22/2020	NA	Recovered	Banke	Province No. 5	Community Transmission	Domestic	SKMCH
 83	M	66	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 84	M	37	5/6/2020	5/21/2020	NA	Recovered	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
-85	M	NA	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
-86	M	NA	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
-87	M	NA	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
-88	M	NA	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
-89	M	NA	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
-90	M	NA	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+85	M	22	5/6/2020	5/23/2020	NA	Recovered	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+86	M	25	5/6/2020	5/23/2020	NA	Recovered	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+87	M	28	5/6/2020	5/23/2020	NA	Recovered	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+88	M	30	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+89	M	35	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+90	M	39	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 91	M	NA	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 92	M	NA	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 93	F	0.2	5/6/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
@@ -126,12 +126,12 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	status	district	prov
 125	M	30	5/11/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 126	M	32	5/11/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 127	M	38	5/11/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
-128	M	24	5/11/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
-129	M	26	5/11/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
-130	M	27	5/11/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
-131	M	30	5/11/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
-132	M	32	5/11/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
-133	M	40	5/11/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
+128	M	24	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
+129	M	26	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
+130	M	27	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
+131	M	30	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
+132	M	32	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
+133	M	40	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
 134	F	11	5/11/2020	NA	NA	Active	Bardiya	Province No. 5	Imported Case	India	LZH
 135	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 136	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
@@ -141,10 +141,10 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	status	district	prov
 140	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 141	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 142	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
-143	M	NA	5/12/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
-144	M	NA	5/12/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
-145	M	NA	5/12/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
-146	M	NA	5/12/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
+143	M	22	5/12/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
+144	M	25	5/12/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
+145	M	28	5/12/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
+146	M	35	5/12/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
 147	M	NA	5/12/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
 148	M	NA	5/12/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
 149	M	NA	5/12/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
@@ -590,3 +590,15 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	status	district	prov
 589	M	NA	5/23/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
 590	M	NA	5/23/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
 591	M	NA	5/23/2020	NA	NA	Active	Gulmi	Province No. 5	Local Transmission	Domestic	NA
+592	M	45	5/23/2020	NA	NA	Active	Morang	Province No. 1	Imported Case	India	NA
+593	M	32	5/23/2020	NA	NA	Active	Bara	Province No. 2	Imported Case	India	NSRH
+594	M	25	5/23/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+595	M	34	5/23/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+596	M	60	5/23/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
+597	M	32	5/23/2020	NA	NA	Active	Bara	Province No. 2	Imported Case	India	NSRH
+598	M	48	5/23/2020	NA	NA	Active	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
+599	M	40	5/23/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
+600	M	50	5/23/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
+601	M	32	5/23/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
+602	M	79	5/23/2020	NA	NA	Active	Kathmandu	Bagmati	Imported Case	Australia, UAE	STIDH
+603	M	39	5/23/2020	NA	NA	Active	Nuwakot	Bagmati	Imported Case	India	NA
