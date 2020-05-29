@@ -4,6 +4,7 @@ geo <- broom::tidy(geo, region="DISTRICT")
 
 
 #### Frequency Table ---
+dat_patients <- subset(dat_patients, !is.na(dat_patients$district))
 dm <- dat_patients %>% 
   dplyr::count(district, sort=FALSE, name="Freq") %>%
   mutate(Percentage=(Freq/sum(Freq))*100) 
