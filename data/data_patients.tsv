@@ -125,7 +125,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	 status	district	pro
 124	M	23	5/11/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 125	M	30	5/11/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 126	M	32	5/11/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
-127	M	38	5/11/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+127	M	38	5/11/2020	5/29/2020	NA	Recovered	Kapilbastu	Province No. 5	Imported Case	India	CSHBD
 128	M	24	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
 129	M	26	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
 130	M	27	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
@@ -133,9 +133,9 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	 status	district	pro
 132	M	32	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
 133	M	40	5/11/2020	5/23/2020	NA	Recovered	Rupandehi	Province No. 5	Imported Case	India	LZH
 134	F	11	5/11/2020	5/27/2020	NA	Recovered	Bardiya	Province No. 5	Imported Case	India	LZH
-135	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
-136	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
-137	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+135	M	NA	5/12/2020	5/29/2020	NA	Recovered	Kapilbastu	Province No. 5	Imported Case	India	CSHBD
+136	M	NA	5/12/2020	5/29/2020	NA	Recovered	Kapilbastu	Province No. 5	Imported Case	India	CSHBD
+137	M	NA	5/12/2020	5/29/2020	NA	Recovered	Kapilbastu	Province No. 5	Imported Case	India	CSHBD
 138	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 139	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 140	M	NA	5/12/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
@@ -262,10 +262,10 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	 status	district	pro
 261	F	23	5/15/2020	5/27/2020	NA	Recovered	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 262	F	46	5/15/2020	NA	NA	Active	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
 263	M	25	5/15/2020	5/20/2020	NA	Recovered	Udayapur	Province No. 1	Community Transmission	Domestic	KOSH
-264	M	23	5/15/2020	NA	NA	Active	Dang	Province No. 5	Imported Case	India	NA
+264	M	23	5/15/2020	5/29/2020	NA	Recovered	Dang	Province No. 5	Imported Case	India	CSHBD
 265	M	36	5/15/2020	NA	NA	Active	Dang	Province No. 5	Imported Case	India	NA
 266	M	34	5/15/2020	NA	NA	Active	Dang	Province No. 5	Imported Case	India	NA
-267	M	7	5/15/2020	NA	NA	Active	Kathmandu	Bagmati	Community Transmission	Domestic	NA
+267	M	7	5/15/2020	5/29/2020	NA	Recovered	Kathmandu	Bagmati	Community Transmission	Domestic	PAHS
 268	F	28	5/16/2020	NA	NA	Active	Bardiya	Province No. 5	Imported Case	India	LZH
 269	M	30	5/16/2020	NA	NA	Active	Siraha	Province No. 2	Imported Case	Saudi Arabia	NA
 270	M	28	5/16/2020	5/28/2020	NA	Recovered	Parsa	Province No. 2	Community Transmission	Domestic	NSRH
@@ -306,9 +306,9 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	 status	district	pro
 305	M	NA	5/18/2020	NA	NA	Active	Dhanusa	Province No. 2	Imported Case	India	NSRH
 306	M	NA	5/18/2020	NA	NA	Active	Dhanusa	Province No. 2	Imported Case	India	NSRH
 307	M	22	5/18/2020	5/22/2020	NA	Recovered	Banke	Province No. 5	Imported Case	India	NA
-308	M	NA	5/18/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
-309	M	NA	5/18/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
-310	M	NA	5/18/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
+308	M	NA	5/18/2020	5/29/2020	NA	Recovered	Banke	Province No. 5	Imported Case	India	CSHBD
+309	M	NA	5/18/2020	5/29/2020	NA	Recovered	Banke	Province No. 5	Imported Case	India	CSHBD
+310	M	NA	5/18/2020	5/29/2020	NA	Recovered	Banke	Province No. 5	Imported Case	India	CSHBD
 311	M	NA	5/18/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
 312	M	NA	5/18/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
 313	M	NA	5/18/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
@@ -357,7 +357,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	 status	district	pro
 356	M	NA	5/18/2020	NA	NA	Active	Dhanusa	Province No. 2	Imported Case	India	NA
 357	M	NA	5/18/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NA
 358	M	NA	5/18/2020	NA	NA	Active	Dang	Province No. 5	Imported Case	India	NA
-359	M	NA	5/18/2020	NA	NA	Active	Dhading	Bagmati	Imported Case	India	NA
+359	M	NA	5/18/2020	5/29/2020	NA	Recovered	Dhading	Bagmati	Imported Case	India	PAHS
 360	M	NA	5/18/2020	NA	NA	Active	Khotang	Province No. 1	Imported Case	India	NA
 361	M	NA	5/18/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
 362	M	NA	5/18/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
@@ -390,17 +390,17 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	 status	district	pro
 389	F	37	5/19/2020	NA	NA	Active	Dhankuta	Province No. 1	Local Transmission	Domestic	NA
 390	M	35	5/19/2020	NA	NA	Active	Dhankuta	Province No. 1	Community Transmission	Domestic	NA
 391	M	NA	5/19/2020	NA	NA	Active	Dhanusa	Province No. 2	Imported Case	India	NA
-392	M	NA	5/19/2020	NA	NA	Active	Ramechhap	Bagmati	Community Transmission	Domestic	NA
-393	M	NA	5/19/2020	NA	NA	Active	Sindhuli	Bagmati	Community Transmission	Domestic	NA
-394	M	NA	5/19/2020	NA	NA	Active	Makwanpur	Bagmati	Community Transmission	Domestic	NA
+392	M	NA	5/19/2020	5/29/2020	NA	Recovered	Ramechhap	Bagmati	Community Transmission	Domestic	PAHS
+393	M	NA	5/19/2020	5/29/2020	NA	Recovered	Sindhuli	Bagmati	Community Transmission	Domestic	PAHS
+394	M	NA	5/19/2020	5/29/2020	NA	Recovered	Makwanpur	Bagmati	Community Transmission	Domestic	PAHS
 395	M	34	5/19/2020	5/25/2020	NA	Recovered	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
-396	M	NA	5/19/2020	NA	NA	Active	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
-397	M	NA	5/19/2020	NA	NA	Active	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
-398	F	24	5/19/2020	NA	NA	Active	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
-399	M	3	5/19/2020	NA	NA	Active	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
+396	M	NA	5/19/2020	5/29/2020	NA	Recovered	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
+397	M	NA	5/19/2020	5/29/2020	NA	Recovered	Kathmandu	Bagmati	Community Transmission	Domestic	STIDH
+398	F	24	5/19/2020	5/29/2020	NA	Recovered	Kathmandu	Bagmati	Community Transmission	Domestic	PAHS
+399	M	3	5/19/2020	5/29/2020	NA	Recovered	Kathmandu	Bagmati	Community Transmission	Domestic	PAHS
 400	F	NA	5/19/2020	NA	NA	Active	Sarlahi	Province No. 2	Community Transmission	Domestic	NA
 401	M	NA	5/19/2020	NA	NA	Active	Morang	Province No. 1	Imported Case	India	NA
-402	M	NA	5/19/2020	NA	NA	Active	Bhaktapur	Bagmati	Community Transmission	Domestic	NA
+402	M	NA	5/19/2020	5/29/2020	NA	Recovered	Bhaktapur	Bagmati	Community Transmission	Domestic	CUHB
 403	M	17	5/20/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
 404	M	20	5/20/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
 405	M	28	5/20/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
@@ -457,7 +457,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	 status	district	pro
 456	F	42	5/21/2020	NA	NA	Active	Banke	Province No. 5	Imported Case	India	NA
 457	M	19	5/21/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
 458	M	45	5/22/2020	NA	NA	Active	Nawalparasi(E)	Gandaki	Community Transmission	Domestic	NA
-459	M	74	5/22/2020	NA	NA	Active	Chitwan	Bagmati	Community Transmission	Domestic	NA
+459	M	74	5/22/2020	5/29/2020	NA	Recovered	Chitwan	Bagmati	Community Transmission	Domestic	CUHB
 460	F	73	5/22/2020	NA	NA	Active	Chitwan	Bagmati	Community Transmission	Domestic	NA
 461	M	33	5/22/2020	NA	NA	Active	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
 462	M	35	5/22/2020	NA	NA	Active	Nawalparasi(W)	Province No. 5	Community Transmission	Domestic	NA
@@ -1041,3 +1041,173 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	 status	district	pro
 1040	M	35	5/28/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
 1041	M	37	5/28/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
 1042	M	40	5/28/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1043	M	18	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1044	M	19	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1045	M	19	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1046	M	20	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1047	M	21	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1048	M	22	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1049	M	22	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1050	M	23	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1051	M	23	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1052	M	23	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1053	M	25	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1054	M	25	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1055	M	26	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1056	M	27	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1057	M	28	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1058	M	29	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1059	M	30	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1060	M	31	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1061	M	32	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1062	M	33	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1063	M	34	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1064	M	35	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1065	M	39	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1066	M	41	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1067	M	24	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1068	M	30	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1069	M	44	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1070	M	20	5/29/2020	NA	NA	Active	Saptari	Province No. 2	Imported Case	India	NA
+1071	M	22	5/29/2020	NA	NA	Active	Saptari	Province No. 2	Imported Case	India	NA
+1072	M	24	5/29/2020	NA	NA	Active	Saptari	Province No. 2	Imported Case	India	NA
+1073	M	26	5/29/2020	NA	NA	Active	Saptari	Province No. 2	Imported Case	India	NA
+1074	M	34	5/29/2020	NA	NA	Active	Jhapa	Province No. 1	Imported Case	India	KOSH
+1075	M	27	5/29/2020	NA	NA	Active	Bara	Province No. 2	Imported Case	India	NSRH
+1076	M	29	5/29/2020	NA	NA	Active	Bara	Province No. 2	Imported Case	India	NSRH
+1077	M	35	5/29/2020	NA	NA	Active	Bara	Province No. 2	Imported Case	India	NSRH
+1078	M	45	5/29/2020	NA	NA	Active	Bara	Province No. 2	Imported Case	India	NSRH
+1079	M	21	5/29/2020	NA	NA	Active	Parsa	Province No. 2	Imported Case	India	NSRH
+1080	M	25	5/29/2020	NA	NA	Active	Parsa	Province No. 2	Imported Case	India	NSRH
+1081	M	33	5/29/2020	NA	NA	Active	Parsa	Province No. 2	Imported Case	India	NSRH
+1082	M	42	5/29/2020	NA	NA	Active	Parsa	Province No. 2	Imported Case	India	NSRH
+1083	M	34	5/29/2020	NA	NA	Active	Parsa	Province No. 2	Imported Case	India	NSRH
+1084	F	31	5/29/2020	NA	NA	Active	Lalitpur	Bagmati	Community Transmission	Domestic	PAHS
+1085	M	30	5/29/2020	NA	NA	Active	Myagdi	Gandaki	Imported Case	India	NA
+1086	M	17	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1087	M	19	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1088	M	19	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1089	M	21	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1090	M	23	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1091	M	23	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1092	M	25	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1093	M	27	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1094	M	35	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1095	M	41	5/29/2020	NA	NA	Active	Banke	Province No. 5	Community Transmission	Domestic	NA
+1096	M	23	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1097	M	24	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1098	M	25	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1099	M	26	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1100	M	19	5/29/2020	NA	NA	Active	Nawalparasi(E)	Gandaki	Imported Case	India	NA
+1101	M	21	5/29/2020	NA	NA	Active	Nawalparasi(E)	Gandaki	Imported Case	India	NA
+1102	M	7	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1103	M	14	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1104	M	15	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1105	M	18	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1106	M	19	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1107	M	20	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1108	M	20	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1109	M	21	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1110	M	23	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1111	M	23	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1112	M	23	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1113	M	23	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1114	M	24	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1115	M	24	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1116	M	25	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1117	M	26	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1118	M	27	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1119	M	28	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1120	M	29	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1121	M	30	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1122	M	33	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1123	M	40	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1124	M	52	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1125	F	7	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1126	F	10	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1127	M	22	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1128	M	22	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1129	M	22	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1130	M	22	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1131	M	23	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1132	M	23	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1133	M	23	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1134	M	23	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1135	M	25	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1136	M	25	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1137	M	25	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1138	M	25	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1139	M	26	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1140	M	26	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1141	M	27	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1142	M	28	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1143	M	28	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1144	M	28	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1145	M	28	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1146	M	28	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1147	M	28	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1148	M	28	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1149	M	28	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1150	M	29	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1151	M	29	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1152	M	29	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1153	M	29	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1154	M	30	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1155	M	30	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1156	M	30	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1157	M	31	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1158	M	31	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1159	M	32	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1160	M	32	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1161	M	32	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1162	M	32	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1163	M	32	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1164	M	32	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1165	M	33	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1166	M	33	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1167	M	33	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1168	M	33	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1169	M	34	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1170	M	35	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1171	M	35	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1172	M	35	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1173	M	35	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1174	M	35	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1175	M	44	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1176	M	46	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1177	M	50	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1178	M	52	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1179	M	61	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1180	M	70	5/29/2020	NA	NA	Active	Rautahat	Province No. 2	Imported Case	India	NSRH
+1181	M	19	5/29/2020	NA	NA	Active	Sarlahi	Province No. 2	Imported Case	India	NA
+1182	M	23	5/29/2020	NA	NA	Active	Sarlahi	Province No. 2	Imported Case	India	NA
+1183	F	26	5/29/2020	NA	NA	Active	Sarlahi	Province No. 2	Imported Case	India	NA
+1184	M	30	5/29/2020	NA	NA	Active	Sarlahi	Province No. 2	Imported Case	India	NA
+1185	M	35	5/29/2020	NA	5/23/2020	Dead	Arghakhanchi	Province No. 5	Imported Case	India	NA
+1186	M	17	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1187	M	18	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1188	M	19	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1189	M	20	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1190	M	21	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1191	M	21	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1192	M	21	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1193	M	23	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1194	M	23	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1195	M	25	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1196	M	26	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1197	M	27	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1198	M	28	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1199	M	30	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1200	M	44	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1201	M	27	5/29/2020	NA	NA	Active	Rupandehi	Province No. 5	Imported Case	India	LZH
+1202	M	28	5/29/2020	NA	NA	Active	Dang	Province No. 5	Imported Case	India	NA
+1203	M	41	5/29/2020	NA	NA	Active	Dang	Province No. 5	Imported Case	India	NA
+1204	M	17	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1205	M	18	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1206	M	19	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1207	M	20	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1208	M	23	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1209	M	24	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1210	M	26	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1211	M	37	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
+1212	M	52	5/29/2020	NA	NA	Active	Kapilbastu	Province No. 5	Imported Case	India	LZH
