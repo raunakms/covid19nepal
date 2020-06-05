@@ -112,3 +112,4 @@ site_report	date	total_test	result_pending	total_positive	total_negative	total_r
 111	5/30/2020	66729	NA	1401	65328	219	6
 112	5/31/2020	69587	NA	1572	68015	220	8
 113	6/1/2020	71903	NA	1798	70105	221	8
+114	6/2/2020	75343	NA	2099	73244	266	8
