@@ -2835,7 +2835,7 @@ case_id	gender	age	date_confirmed	date_recovered	date_death	 status	district	pro
 2834	M	25	6/5/2020	NA	NA	Active	Jumla	Karnali	Imported Case	India	NA
 2835	M	23	6/5/2020	NA	NA	Active	Jumla	Karnali	Imported Case	India	NA
 2836	M	25	6/5/2020	NA	NA	Active	Jumla	Karnali	Imported Case	India	NA
-2837	M	24	6/5/2020	NA	NA	Active	Surkhet	Karnali	Imported Case	India	NA
+2837	M	28	6/5/2020	NA	6/4/2020	Dead	Surkhet	Karnali	Imported Case	India	NA
 2838	M	22	6/5/2020	NA	NA	Active	Dang	Province No. 5	Imported Case	India	NA
 2839	M	20	6/5/2020	NA	NA	Active	Bara	Province No. 2	Imported Case	India	NA
 2840	M	20	6/5/2020	NA	NA	Active	Dhanusa	Province No. 2	Imported Case	India	NA
